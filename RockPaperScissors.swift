@@ -6,7 +6,7 @@
 import Foundation
 
 let rock = 1, paper = 2, scissors = 3
-let compNum = arc4random_uniform(3) + 1
+let compNum = Int(arc4random_uniform(3) + 1)
 
 print("Rock, paper, scissors, shoot! Choose your fighter and see who wins: \n\n  1 (rock)\n  2 (paper)\n  3 (scissors)")
 
